@@ -357,7 +357,8 @@ def main():
         configure_bme280(ser)  # Configure the BME280 for measurement mode
         adc_T = read_sensor_data(ser)  # Read the raw sensor data from the BME280
         if adc_T is not None:
-            print(f"[*] Temperature ADC Value: {adc_T}")
+            if DEBUG:
+                print(f"[*] Temperature ADC Value: {adc_T}")
         else:
             print("[!] Error reading sensor data.")
         if read_calibration_data(ser):
