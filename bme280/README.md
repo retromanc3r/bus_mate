@@ -2,18 +2,6 @@
 
 This project is for interfacing with the BME280 sensor using a Bus Pirate.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Wiring Diagram](#wiring-diagram)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-
 ## Introduction
 
 The BME280 sensor is used for measuring temperature, humidity, and pressure. This project provides a way to interface with the BME280 sensor using a Bus Pirate.
