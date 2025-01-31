@@ -64,7 +64,7 @@ BP_PORT = "/dev/ttyACM0"  # Change if needed
 Run a script (e.g., BME280 interface):
 
 ```sh
-python3 bpi2c_bme280.py
+python3 bme280.py
 ```
 
 ## Example: Running the BME280 Script
